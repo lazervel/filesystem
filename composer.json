@@ -1,0 +1,29 @@
+{
+  "name": "filesys/filesystem",
+  "description": "A lightweight PHP filesystem library for efficient file and directory operations.",
+  "type": "library",
+  "keywords": ["filesystem", "fs"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Filesystem\\": "src/"
+    }
+  },
+  "require": {
+    "filesys/path": ">=1.3"
+  },
+  "authors": [
+    {
+      "name": "Shahzada Modassir",
+      "email": "lazervel@gmail.com",
+      "homepage": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
