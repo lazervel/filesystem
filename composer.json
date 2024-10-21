@@ -10,7 +10,7 @@
     }
   },
   "require": {
-    "filesys/path": ">=5.0.0"
+    "filesys/path": ">=4.0 < 5.0"
   },
   "authors": [
     {
